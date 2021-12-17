@@ -99,10 +99,18 @@ sudo -S systemctl start bitsongd
 sudo service bitsongd status
 ```
 
+### Create wallet
+
+```
+bitsongd keys add <key-name>
+```
+
+Make a keyring password if prompted. Save your mneomic somewhere secure! Note your wallet address, you'll use it for future commands.
+
 ### Get tokens from faucet
 
 ```
-curl -X POST -d '{"address": "bitsong1......"}' https://faucet.testnet.bitsong.network
+curl -X POST -d '{"address": "<wallet-address>"}' https://faucet.testnet.bitsong.network
 ```
 
 ### Fantoken Module
@@ -123,7 +131,7 @@ bitsongd tx fantoken issue \
 --issue-fee 1000000ubtsg \
 --description "The most popular fantoken" \
 --chain-id bigbang-test-2 \
---from user \
+--from <key-name> \
 -b block \
 --keyring-backend test \
 --node https://rpc.testnet.bitsong.network:443
@@ -148,7 +156,7 @@ bitsongd tx fantoken mint ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --recipient <rcpt-address> \
 --amount 1000 \
 --chain-id bigbang-test-2 \
---from user \
+--from <key-name> \
 -b block \
 --keyring-backend test \
 --node https://rpc.testnet.bitsong.network:443
@@ -160,7 +168,7 @@ bitsongd tx fantoken mint ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 bitsongd tx fantoken burn ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --amount 1 \
 --chain-id bigbang-test-2 \
---from user \
+--from <key-name> \
 -b block \
 --keyring-backend test \
 --node https://rpc.testnet.bitsong.network:443
@@ -174,7 +182,7 @@ bitsongd tx fantoken burn ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 bitsongd tx fantoken edit ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --mintable true \
 --chain-id bigbang-test-2 \
---from user1 \
+--from <key-name> \
 -b block \
 --keyring-backend test \
 --node https://rpc.testnet.bitsong.network:443
@@ -186,7 +194,7 @@ bitsongd tx fantoken edit ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 bitsongd tx fantoken transfer ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --recipient <rcpt-address> \
 --chain-id bigbang-test-2 \
---from user \
+--from <key-name> \
 -b block \
 --keyring-backend test \
 --node https://rpc.testnet.bitsong.network:443
