@@ -62,4 +62,5 @@
 
 * [How to Create a BitSong wallet](useful-guides/how-to-create-a-bitsong-wallet.md)
 * [How to Import Your BitSong Wallet](useful-guides/how-to-import-your-bitsong-wallet.md)
+* [How to Stake $BTSG](useful-guides/how-to-stake-usdbtsg.md)
 * [How to Add $BTSG Liquidity to Osmosis Pools](useful-guides/how-to-add-usdbtsg-liquidity-to-osmosis-pools.md)
