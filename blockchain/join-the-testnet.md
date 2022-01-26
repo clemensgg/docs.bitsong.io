@@ -81,7 +81,6 @@ LimitNOFILE=4096
 [Install]
 WantedBy=multi-user.target
 EOF
-
 ```
 
 Then setup the daemon
@@ -102,10 +101,10 @@ sudo service bitsongd status
 ### Create wallet
 
 ```
-bitsongd keys add <key-name>
+bitsongd keys add <key-name> --keyring-backend test
 ```
 
-Make a keyring password if prompted. Save your mneomic somewhere secure! Note your wallet address, you'll use it for future commands.
+Make a keyring password if prompted. Save your mnemonic somewhere secure! Note your wallet address, you'll use it for future commands.
 
 ### Get tokens from faucet
 
@@ -200,4 +199,4 @@ bitsongd tx fantoken transfer ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --node https://rpc.testnet.bitsong.network:443
 ```
 
-\
+\\
