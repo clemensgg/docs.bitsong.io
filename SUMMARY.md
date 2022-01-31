@@ -8,6 +8,7 @@
   * [Validator Overview](validators/validator-overview.md)
   * [Validator FAQ](validators/validator-faq.md)
   * [Validator Security](validators/validator-security.md)
+* [Relayer](relayer.md)
 * [FAQ](faq.md)
 * [Glossary](glossary.md)
 * [Roadmap](roadmap.md)
