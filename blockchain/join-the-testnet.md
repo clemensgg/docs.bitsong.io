@@ -127,7 +127,7 @@ bitsongd tx fantoken issue \
 --max-supply "1000000000" \
 --issue-fee 1000000ubtsg \
 --description "The most popular fantoken" \
---chain-id bigbang-test-2 \
+--chain-id bigbang-test-3 \
 --from <key-name> \
 -b block \
 --keyring-backend test \
@@ -152,7 +152,7 @@ bitsongd query fantoken denom ft0011B9AE260F69D60438095F95F50AF9976015A9 --node 
 bitsongd tx fantoken mint ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --recipient <rcpt-address> \
 --amount 1000 \
---chain-id bigbang-test-2 \
+--chain-id bigbang-test-3 \
 --from <key-name> \
 -b block \
 --keyring-backend test \
@@ -164,7 +164,7 @@ bitsongd tx fantoken mint ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 ```
 bitsongd tx fantoken burn ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --amount 1 \
---chain-id bigbang-test-2 \
+--chain-id bigbang-test-3 \
 --from <key-name> \
 -b block \
 --keyring-backend test \
@@ -178,7 +178,7 @@ bitsongd tx fantoken burn ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 ```
 bitsongd tx fantoken edit ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --mintable true \
---chain-id bigbang-test-2 \
+--chain-id bigbang-test-3 \
 --from <key-name> \
 -b block \
 --keyring-backend test \
@@ -190,7 +190,7 @@ bitsongd tx fantoken edit ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 ```
 bitsongd tx fantoken transfer ft0011B9AE260F69D60438095F95F50AF9976015A9 \
 --recipient <rcpt-address> \
---chain-id bigbang-test-2 \
+--chain-id bigbang-test-3 \
 --from <key-name> \
 -b block \
 --keyring-backend test \
