@@ -39,7 +39,7 @@ make install
 ### Initialize the chain
 
 ```
-bitsongd init <moniker> --chain-id=bigbang-test-2
+bitsongd init <moniker> --chain-id=bigbang-test-3
 ```
 
 ### Genesis & Seeds
@@ -49,7 +49,7 @@ bitsongd init <moniker> --chain-id=bigbang-test-2
 Fetch the testnet's `genesis.json` file into `bitsongd`'s config directory.
 
 ```
-wget -O ~/.bitsongd/config/genesis.json https://raw.githubusercontent.com/bitsongofficial/networks/master/testnet/bigbang-test-2/genesis.json
+wget -O ~/.bitsongd/config/genesis.json https://raw.githubusercontent.com/bitsongofficial/networks/master/testnet/bigbang-test-3/genesis.json
 ```
 
 #### **Set persistent peers**
@@ -57,7 +57,7 @@ wget -O ~/.bitsongd/config/genesis.json https://raw.githubusercontent.com/bitson
 Your node needs to know how to find peers. You'll need to add healthy seed nodes to `$HOME/.bitsongd/config/config.toml`
 
 ```
-export PEERS="4336c0f749d804d77a36534fbe37e5e85606a1ff@78.47.82.185:26656"
+export PEERS="c53679a0a6cf17636686b16513db67520880d585@78.47.82.185:26656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.bitsongd/config/config.toml
 ```
 
@@ -109,10 +109,8 @@ Make a keyring password if prompted. Save your mnemonic somewhere secure! Note y
 ### Get tokens from faucet
 
 ```
-curl -X POST -d '{"address": "<wallet-address>"}' https://faucet.testnet.bitsong.network
+curl https://faucet.testnet.bitsong.network?address=<wallet-address>
 ```
-
-### Fantoken Module
 
 #### Query fantoken params
 
