@@ -26,6 +26,8 @@
 * [Pruning of State](blockchain/pruning-of-state.md)
 * [Export the state](blockchain/export-the-state.md)
 * [Verify Mainnet](blockchain/verify-mainnet.md)
+* [Upgrades](blockchain/upgrades/README.md)
+  * [From v0.8.0 to v0.10.0](blockchain/upgrades/from-v0.8.0-to-v0.10.0.md)
 
 ## Features and Modules
 
