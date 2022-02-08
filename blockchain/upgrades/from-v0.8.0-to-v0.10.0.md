@@ -46,9 +46,10 @@ At this point we have to download and compile the new binary `bitsongd 0.10.0`
 
 ```
 cd ~
-rm -rf go-bitsong # (solo nel caso in cui è già presente una precedente directory)
+rm -rf go-bitsong # (only in the event that a previous directory is already present)
 git clone https://github.com/bitsongofficial/go-bitsong.git
 cd go-bitsong
+git checkout v0.10.0
 make install
 ```
 
