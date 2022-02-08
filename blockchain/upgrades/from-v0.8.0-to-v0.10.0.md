@@ -17,6 +17,8 @@ In the event that the update is unsuccessful, you will need to restore the previ
 
 In order to perform the backup, you just need to copy the content present on the home directory of `go-bitsong`, in this case `~/.bitsongd`
 
+**`Remember to have at least 50% free disk space`**
+
 ```
 cp -Rv ~/.bitsongd ~/backup_bitsongd_080
 ```
