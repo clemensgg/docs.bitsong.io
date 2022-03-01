@@ -55,18 +55,40 @@ export PEERS="e2b9971222adf71f7199c670b7e85471c447e926@157.90.255.143:26656,1207
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" ~/.bitsongd/config/config.toml
 ```
 
-### Download Chain Data <a href="#download-chain-data" id="download-chain-data"></a>
+### Synchronise the Node<a href="#download-chain-data" id="synchronise-the-wallet"></a>
 
-We must now download the latest chain data from a snapshot provider. In this example, I will use [https://steady-wholesaler-ff8.notion.site/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d](https://steady-wholesaler-ff8.notion.site/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d) provided by **StakeSystem**
-
+Now we have to syncronise the node with the current state of the blockchain. The fastest way to achieve this is by using [state sync](https://medium.com/tendermint/tendermint-core-state-sync-for-developers-70a96ba3ee35), which we will use for this purpose.
 ```
-mkdir -p ~/.bitsongd/data
-rsync -avhe 'ssh -p23' u250245-sub1@rsync.stakesystems.io:bitsong/.bitsongd/data/ ~/.bitsongd/data/ --delete
+# Thanks to qf3l3k for creating and testing these commands
+
+sudo systemctl stop bitsong && bitsongd unsafe-reset-all
+
+SNAP_RPC="https://rpc.bitsong.forbole.com:443"
+SNAP_RPC2="https://bitsong.stakesystems.io:2053"
+
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 1000)); \
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+
+peers="e2b9971222adf71f7199c670b7e85471c447e926@157.90.255.143:26656,120740c15a8a19c232b1aa4d80b20de248b33db3@135.181.129.94:26656,bbfb37b3c44c8148b6af7adfa016ec8fabff69d1@121.78.247.243:16656,d741773bc5eecbefb7b14fcca5e3e0fedd49d5a3@157.90.95.104:26656,6e93a30587671e2cecacbcbb27092809bb20249f@95.217.203.59:31656,adfe1cf240780cf8d58266171ced72fb4e9a7a6d@23.226.14.168:26656,f36d3a926ae0583e60f00e7bc54711f3cb7fe769@195.201.58.166:26656,9c9f030298bdda9ca69de7db8e9a3aef33972fba@135.181.16.236:31656,9806602afb65ba45d1048d65285d5c6e50285088@178.18.242.242:26656,4fdd438ea70927003022ecc308e36bc1924ec598@51.210.104.207:26656,3cf3effd3ecb33bdbb5c5e6528c88fde4869b97c@116.202.139.113:26656"
+
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.bitsongd/config/config.toml
+
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC2\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.bitsongd/config/config.toml
+
+sudo systemctl restart bitsong
+
+sudo journalctl -u bitsong -f
 ```
 
 ### Enable the REST API <a href="#enable-the-rest-api" id="enable-the-rest-api"></a>
 
 By default, the REST API is disabled. To enable the REST API, edit the `~/.bitsongd/config/app.toml` file, and set `enable` to `true` in the `[api]` section.
+
 
 ```
 ###############################################################################
