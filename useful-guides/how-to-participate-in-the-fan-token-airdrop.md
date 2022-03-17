@@ -9,11 +9,11 @@ description: >-
 
 In order to be eligible for [**Fan Token Airdrops**](https://bitsong.io/airdrop/), you must comply with at least one of the following requirements.
 
-1. Stake your $BTSG to any Validator on [**BitSong Mainnet**](https://www.mintscan.io/bitsong/validators). \
+1. Stake your **$BTSG** to any Validator on [**BitSong Mainnet**](https://www.mintscan.io/bitsong/validators). \
    \
-   To stake your $BTSG, take a look at our **** [**guide**.](how-to-stake-usdbtsg.md) \
+   To stake your **$BTSG**, take a look at our **** [**guide**.](how-to-stake-usdbtsg.md) \
 
-2. Stake $OSMO to at least one of the following Validators: \
+2. Stake **$OSMO** to at least one of the following Validators: \
 
    * Basblock
    * Forbole
@@ -40,11 +40,11 @@ In order to be eligible for [**Fan Token Airdrops**](https://bitsong.io/airdrop/
    * Citadel.one
    * Stakewolle.com\
      \
-     To stake $OSMO, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
+     To stake **$OSMO**, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
      \
      \- Click on the top of the page and select the Osmosis Chain. \
-     \- Go to Validator Section and Select one the Validator listed above and Delegate your $OSMO.&#x20;
-3. Stake $JUNO to at least one of the following Validators: \
+     \- Go to Validator Section and Select one the Validator listed above and Delegate your **$OSMO**.&#x20;
+3. Stake **$JUNO** to at least one of the following Validators: \
 
    * BasBlock
    * Kalpatech
@@ -75,21 +75,21 @@ In order to be eligible for [**Fan Token Airdrops**](https://bitsong.io/airdrop/
    * Stakewolle.com
    * cyberG\
      \
-     To stake $JUNO, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
+     To stake **$JUNO**, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
      \
      \- Click on the top of the page and select the JUNO Chain. \
-     \- Go to Validator Section and Select one the Validator listed above and Delegate your $JUNO.&#x20;
+     \- Go to Validator Section and Select one the Validator listed above and Delegate your **$JUNO**.&#x20;
 4. Provide Liquidity on [https://app.osmosis.zone/](https://app.osmosis.zone) at least in one of the following Polls:\
    \
-   Pool #573 BTSG/OSMO [https://app.osmosis.zone/pool/573](https://app.osmosis.zone/pool/573)\
-   Pool #574 BTSG/ATMO [https://app.osmosis.zone/pool/574](https://app.osmosis.zone/pool/574)\
-   Pool #592 BTSG/UST [https://app.osmosis.zone/pool/592](https://app.osmosis.zone/pool/592)\
+   **Pool #573 BTSG/OSMO** [https://app.osmosis.zone/pool/573](https://app.osmosis.zone/pool/573)\
+   **Pool #574 BTSG/ATOM** [https://app.osmosis.zone/pool/574](https://app.osmosis.zone/pool/574)\
+   **Pool #592 BTSG/UST** [https://app.osmosis.zone/pool/592](https://app.osmosis.zone/pool/592)\
    \
    To provide Liquidity in **$BTSG** Pools, read our [**guide**](how-to-add-usdbtsg-liquidity-to-osmosis-pools.md).\
 
 5. Provide Liquidity in [https://junoswap.com/](https://junoswap.com) in the following Pool: \
    \
-   Pool #JUNO-BTSG [https://junoswap.com/pools/JUNO-BTSG](https://junoswap.com/pools/JUNO-BTSG)\
+   **Pool #JUNO-BTSG** [https://junoswap.com/pools/JUNO-BTSG](https://junoswap.com/pools/JUNO-BTSG)\
    \
    To Provide Liquidity on Juno Swap, go to [https://junoswap.com/](https://junoswap.com). \
    \
