@@ -9,7 +9,7 @@ description: >-
 
 In order to be eligible for [**Fan Token Airdrops**](https://bitsong.io/airdrop/), you must comply with at least one of the following requirements.
 
-1. Stake your **$BTSG** to any Validator on [**BitSong Mainnet**](https://www.mintscan.io/bitsong/validators). \
+1. Stake at least 400 **$BTSG** to any Validator on [**BitSong Mainnet**](https://www.mintscan.io/bitsong/validators). \
    \
    To stake your **$BTSG**, take a look at our **** [**guide**.](how-to-stake-usdbtsg.md) \
 
