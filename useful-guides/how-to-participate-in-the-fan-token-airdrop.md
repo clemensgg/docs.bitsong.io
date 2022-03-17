@@ -43,7 +43,8 @@ In order to be eligible for [**Fan Token Airdrops**](https://bitsong.io/airdrop/
      To stake **$OSMO**, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
      \
      \- Click on the top of the page and select the Osmosis Chain. \
-     \- Go to Validator Section and Select one the Validator listed above and Delegate your **$OSMO**.&#x20;
+     \- Go to Validator Section and Select one the Validator listed above and Delegate your **$OSMO**. \
+
 3. Stake **$JUNO** to at least one of the following Validators: \
 
    * BasBlock
@@ -78,7 +79,8 @@ In order to be eligible for [**Fan Token Airdrops**](https://bitsong.io/airdrop/
      To stake **$JUNO**, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
      \
      \- Click on the top of the page and select the JUNO Chain. \
-     \- Go to Validator Section and Select one the Validator listed above and Delegate your **$JUNO**.&#x20;
+     \- Go to Validator Section and Select one the Validator listed above and Delegate your **$JUNO**. \
+
 4. Provide Liquidity on [https://app.osmosis.zone/](https://app.osmosis.zone) at least in one of the following Pools:\
    \
    [**Pool #573 BTSG/OSMO**](https://app.osmosis.zone/pool/573)\
