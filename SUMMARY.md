@@ -67,3 +67,4 @@
 * [How to Import Your BitSong Wallet](useful-guides/how-to-import-your-bitsong-wallet.md)
 * [How to Stake $BTSG](useful-guides/how-to-stake-usdbtsg.md)
 * [How to Add $BTSG Liquidity to Osmosis Pools](useful-guides/how-to-add-usdbtsg-liquidity-to-osmosis-pools.md)
+* [How to Participate in the Fan Token Airdrop](useful-guides/how-to-participate-in-the-fan-token-airdrop.md)
