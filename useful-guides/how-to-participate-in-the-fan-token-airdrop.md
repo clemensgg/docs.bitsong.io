@@ -48,8 +48,7 @@ Stake **OSMO** to at least one of the following Validators:&#x20;
   To stake **OSMO**, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
   \
   \- Click on the top of the page and select the **Osmosis Chain**. \
-  \- Go to **Validator** Section and **Select one the Validator** listed above and **Delegate your OSMO**. \
-
+  \- Go to **Validator** Section and **Select one the Validator** listed above and **Delegate your OSMO**.&#x20;
 
 ### Stake JUNO
 
@@ -97,8 +96,7 @@ Provide Liquidity on [https://app.osmosis.zone/](https://app.osmosis.zone) at le
 [**Pool #574 BTSG/ATOM**](https://app.osmosis.zone/pool/574)\
 [**Pool #592 BTSG/UST**](https://app.osmosis.zone/pool/592)\
 \
-To provide Liquidity in **BTSG** Pools, read our [**guide**](how-to-add-usdbtsg-liquidity-to-osmosis-pools.md).\
-
+To provide Liquidity in **BTSG** Pools, read our [**guide**](how-to-add-usdbtsg-liquidity-to-osmosis-pools.md).
 
 ### Provide Liquidity on Juno Swap
 
