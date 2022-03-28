@@ -81,7 +81,8 @@ Stake **JUNO** to at least one of the following Validators:&#x20;
 * [Citadel.one](https://www.mintscan.io/juno/validators/junovaloper1lzhlnpahvznwfv4jmay2tgaha5kmz5qx4cuznf)
 * [web34ever](https://www.mintscan.io/juno/validators/junovaloper1mxpyg8u68k6a8wdu3hs5whcpw9q285pcpxm5yx)
 * [Stakewolle.com](https://www.mintscan.io/juno/validators/junovaloper1qr78535yz60zemv82sww948c6azx40gnawnh6r)
-* [cyberG](https://www.mintscan.io/juno/validators/junovaloper1353ewfc0v7pnn3xre6v9lraghxrhenswmsjhv0)\
+* [cyberG](https://www.mintscan.io/juno/validators/junovaloper1353ewfc0v7pnn3xre6v9lraghxrhenswmsjhv0)
+* [CommunityStaking](https://www.mintscan.io/juno/validators/junovaloper1zxx8j75ngm8m38v9l5wreaavwnsuun7gcq5cu8)\
   \
   To stake **JUNO**, go to [https://wallet.bitsong.io/](https://wallet.bitsong.io) \
   \
