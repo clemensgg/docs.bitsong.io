@@ -104,7 +104,7 @@ _config.toml - set persistent-peers & seeds for each chain_
 
 bitsong-2b seeds:
 ```sh
- "ffa27441ca78a5d41a36f6d505b67a145fd54d8a@95.217.156.228:26656,efd52c1e56b460b1f37d73c8d2bd5f860b41d2ba@65.21.62.83:26656
+ ffa27441ca78a5d41a36f6d505b67a145fd54d8a@95.217.156.228:26656,efd52c1e56b460b1f37d73c8d2bd5f860b41d2ba@65.21.62.83:26656
 ```
 
 bitsong-2b persistent-peers: 
