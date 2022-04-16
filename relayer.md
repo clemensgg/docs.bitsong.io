@@ -174,7 +174,7 @@ git clone https://github.com/informalsystems/ibc-rs.git hermes
 cd hermes
 git checkout v0.13.0
 cargo install ibc-relayer-cli --bin hermes --locked
-sudo cp target/release/hermes /usr/bin
+sudo cp ~/.cargo/bin/hermes /usr/bin
 ```
 
 _If you have built your binary on a remote machine, move the binary to your producion environment_
