@@ -49,7 +49,7 @@ Because the relaying process needs to be able to query the chain back in height 
 
 _edit app.toml - note: at an average block time of 6.5sec pruning-keep-recent=400000 will result in a retained chainstate of \~30d. This will suffice for most cosmos-sdk chains with an unstaking period < 30d_
 ```toml
-pruning=custom 
+pruning="custom"
 pruning-keep-recent=400000 
 pruning-keep-every=0 
 pruning-interval=100
