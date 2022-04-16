@@ -189,7 +189,6 @@ cp config.toml $HOME/.hermes
 Check hermes version & config dir setup
 ```sh
 hermes version
-INFO ThreadId(01) using default configuration from '/home/relay/.hermes/config.toml'
 hermes 0.13.0
 ```
 
