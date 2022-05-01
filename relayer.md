@@ -159,7 +159,7 @@ Make the directory where you'll place the source, clone the hermes source reposi
 mkdir -p $HOME/hermes
 git clone https://github.com/informalsystems/ibc-rs.git hermes
 cd hermes
-git checkout v0.13.0
+git checkout v0.14.0
 cargo install ibc-relayer-cli --bin hermes --locked
 sudo cp ~/.cargo/bin/hermes /usr/bin
 ```
@@ -176,7 +176,7 @@ cp config.toml $HOME/.hermes
 Check hermes version & config dir setup
 ```sh
 hermes version
-hermes 0.13.0
+hermes 0.14.0
 ```
 
 Edit hermes config (use ports according to your port config, set filter=true to filter channels you don't relay)
